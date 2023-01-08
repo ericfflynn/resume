@@ -1,0 +1,88 @@
+* {
+	margin:  0;
+	padding:  0;
+	font-family: 'Poppins', sans-serif;
+}
+html{
+	scroll-behavior:  smooth;
+	background-color: darkgray;
+}
+body{
+	padding: 50px;
+	margin: 20px auto;
+	background-color: white;
+	height: 1650px;
+	width: 1275px;
+}
+h2, {
+	font-size: 35px;
+	font-weight: bold;
+}
+p {
+	font-size: 25px;
+}
+/*
+div {
+padding-bottom: 10px;
+}
+*/
+#section {
+	padding: 10px 0;
+}
+li {
+	font-size: 25px;
+}
+.header{
+	text-align: center;
+	adding-bottom: 10px;
+}
+.header h1 {
+	font-size: 60px;
+	font-weight: bold;
+}
+.header a {
+	color: blue;
+	font-size: 25px;
+}
+.education{
+	text-align: left;
+}
+p.bold {
+	font-weight: bold;
+}
+p.italic {
+	font-style: italic;
+}
+.skill-list{
+	display: inline-flex;
+	width: 100%;
+}
+.skill-col{
+	flex-basis: 33%;
+	text-align: center;
+}
+ul {
+	display: inline-block;
+	text-align: left;
+	list-style-position: inside;
+}
+.exp-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sub-header-1 {
+	display: inline-flex;
+	font-weight: bold;
+}
+.sub-header-1 {
+	display: inline-flex;
+	font-weight: bold;
+}
+.sub-header-2 {
+	display: inline-flex;
+	font-style: italic;
+}
+.certs ul {
+	padding-left: 50px;
+}
