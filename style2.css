@@ -8,8 +8,8 @@ html{
 }
 
 body{
-	padding-top: 50px;
-    padding-bottom: 50px;
+	padding-top: 25px;
+    padding-bottom: 25px;
     padding-left: 75px;
     padding-right: 75px;
 	margin: 10px auto;
@@ -52,6 +52,10 @@ li {
 .header p, a {
     font-style: italic;
 }
+/* .summary {
+	padding-top: .5em;
+	padding-bottom: .5em;
+} */
 .education{
 	text-align: left;
 }
