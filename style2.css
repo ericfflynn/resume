@@ -18,20 +18,20 @@ body{
 	width: 900px;
 }
 p {
-	font-size: 21px;
+	font-size: 18px;
 }
 .contact {
     font-size: 22.5px;
 }
 #section {
-	padding: 10px 0;
+	padding: 8px 0;
 }
 .section-header {
     font-weight: lighter;
     font-size: 22.5px;
 }
 li {
-	font-size: 21px;
+	font-size: 18px;
 }
 .header{
 	text-align: left;
@@ -61,6 +61,7 @@ li {
 }
 p.bold {
 	font-weight: bold;
+	font-size: 20px;
 }
 p.italic {
 	font-style: italic;
@@ -90,7 +91,7 @@ ul {
 	justify-content: right;
 }
 .exp-title {
-    font-size: 21px;
+    font-size: 20px;
     padding-top: .25em;
     padding-bottom: .25em;
 }
