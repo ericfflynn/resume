@@ -24,7 +24,7 @@ p {
     font-size: 22.5px;
 }
 #section {
-	padding: 8px 0;
+	padding: .3em 0;
 }
 .section-header {
     font-weight: lighter;
@@ -92,8 +92,8 @@ ul {
 }
 .exp-title {
     font-size: 20px;
-    padding-top: .25em;
-    padding-bottom: .25em;
+    padding-top: .125em;
+    padding-bottom: .125em;
 }
 .sub-header-1 {
 	display: inline-flex;
@@ -105,10 +105,10 @@ ul {
 	font-style: italic;
 }
 .project:not(:last-child) {
-    padding-bottom: .75em;
+    padding-bottom: .25em;
 }
 .project-header-container {
-    padding-bottom: .25em;
+    padding-bottom: .125em;
 }
 
 .project-header {
