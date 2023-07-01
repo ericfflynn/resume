@@ -62,6 +62,12 @@ li {
 p.bold {
 	font-weight: bold;
 	font-size: 20px;
+	/* padding-top: .125em; */
+    /* padding-bottom: .125em; */
+}
+p.bold-big {
+	font-weight: bold;
+	font-size: 22px;
 }
 p.italic {
 	font-style: italic;
@@ -92,8 +98,8 @@ ul {
 }
 .exp-title {
     font-size: 20px;
-    padding-top: .125em;
-    padding-bottom: .125em;
+    /* padding-top: .125em;
+    padding-bottom: .125em; */
 }
 .sub-header-1 {
 	display: inline-flex;
@@ -109,6 +115,9 @@ ul {
 }
 .project-header-container {
     padding-bottom: .125em;
+}
+.employer:not(:last-child) {
+	padding-bottom: .25em;
 }
 
 .project-header {
