@@ -1,0 +1,134 @@
+* {
+	margin:  0;
+	padding:  0;
+}
+html{
+	scroll-behavior:  smooth;
+	background-color: darkgray;
+}
+
+body{
+	padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+	margin: 10px auto;
+	background-color: white;
+	height: auto;
+	width: 900px;
+}
+p {
+	font-size: 18px;
+}
+.contact {
+    font-size: 22.5px;
+}
+#section {
+	padding: .3em 0;
+}
+.section-header {
+    font-weight: lighter;
+    font-size: 22.5px;
+}
+li {
+	font-size: 18px;
+}
+.header{
+	text-align: left;
+}
+.header h1 {
+	font-size: 60px;
+	font-weight: bold;
+    padding-bottom: .25rem;
+}
+.header a {
+	color: black;
+	font-size: 20px;
+}
+.header h2 {
+    font-weight: lighter;
+    font-size: 35px;
+}
+.header p, a {
+    font-style: italic;
+}
+/* .summary {
+	padding-top: .5em;
+	padding-bottom: .5em;
+} */
+.education{
+	text-align: left;
+}
+p.bold {
+	font-weight: bold;
+	font-size: 20px;
+	/* padding-top: .125em; */
+    /* padding-bottom: .125em; */
+}
+p.bold-big {
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+}
+p.italic {
+	font-style: italic;
+}
+
+.skill-list{
+	display: inline-flex;
+	width: 100%;
+}
+.skill-col{
+	flex-basis: 33%;
+	text-align: center;
+}
+ul {
+	display: inline-block;
+	text-align: left;
+	list-style-position: outside;
+    padding-left: 2em;
+}
+
+.exp-header {
+	display: flex;
+	justify-content: space-between;
+}
+.exp-header-2 {
+	display: flex;
+	justify-content: right;
+}
+.exp-title {
+    font-size: 20px;
+    /* padding-top: .125em;
+    padding-bottom: .125em; */
+}
+.sub-header-1 {
+	display: inline-flex;
+	font-weight: bold;
+}
+
+.sub-header-2 {
+	display: inline-flex;
+	font-style: italic;
+}
+.project:not(:last-child) {
+    padding-bottom: .25em;
+}
+.project-header-container {
+    padding-bottom: .125em;
+}
+.employer:not(:last-child) {
+	padding-bottom: .5em;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill{
+    display: inline-flex;
+}
+.skill p:first-child {
+    padding-right: .5em;
+}
