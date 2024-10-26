@@ -92,6 +92,7 @@ ul {
 .exp-header {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 2px;
 }
 .exp-header-2 {
 	display: flex;
@@ -117,6 +118,11 @@ ul {
 .exp-list:not(:last-child) {
     padding-bottom: .25em;
 }
+
+.exp-list li {
+    margin-bottom: 7.5px; 
+}
+
 .project-header-container {
     padding-bottom: .125em;
 }
@@ -137,11 +143,47 @@ ul {
 }
 
 
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.skills-column {
+    flex: 1 1 0;
+    list-style-type: disc;
+    padding-left: 30px;
+    margin: 0;
+
+}
+
+.page-break {
+	page-break-before: always;
+	margin-top: 50px; /* Adjust the top margin as needed */
+}
+
+.page-break::before {
+    content: "Continued...";
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-size: 14px;
+    color: #000; /* Adjust the color if needed */
+}
+hr {
+    border: none;
+    border-top: 0.5px solid black; /* Uniform border thickness and color */
+    margin: 5px 0; /* Consistent spacing */
+}
+
 @media print {
-    @media print {
-		.page-break {
-			page-break-before: always;
-			margin-top: 50px; /* Adjust the top margin as needed */
-		}
+
+	.page-break {
+		page-break-before: always;
+		margin-top: 50px; /* Adjust the top margin as needed */
 	}
+	hr {
+        border-top: 0.5px solid black; /* Same style applied when printing */
+    }
 }
